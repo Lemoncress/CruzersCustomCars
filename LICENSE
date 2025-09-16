@@ -2,41 +2,26 @@ MIT License
 
 Copyright (c) 2025 CruzerBlade9369
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-1. Code License (MIT):
-   The source code included in this project is licensed under the terms of
-   the MIT License. The above copyright notice and this permission notice
-   shall be included in all copies or substantial portions of the code.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-2. Asset Usage Restriction:
-   Any 3D models, textures, sounds, or other artistic and/or creative assets
-   included in this project (the "Assets") are not licensed under MIT.
-   These Assets may only be used, copied, modified, or redistributed for the
-   purposes of modding the game "Derail Valley" ("DV") and must not be used
-   in other games, software, or projects without prior written permission
-   from the copyright holder.
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-   The Assets may not be used for commercial purposes, standalone distribution,
-   or in any project unrelated to DV modding.
+==============================================
+
+Asset License (Custom Restrictions)
+
+The following applies to 3D models, textures, sounds, and other artistic/creative assets (the "Assets") included in this project:
+
+1. Permitted Use:
+- Assets may be used, copied, modified, or redistributed only for the purpose of modding the game “Derail Valley” (DV).
+- Assets may not be used in other games, software, or projects without prior written permission from the copyright holder.
+
+2. Prohibited Use:
+- Assets may not be used for commercial purposes.
+- Assets may not be distributed standalone.
+- Assets may not be included in any project unrelated to DV modding.
 
 3. Combined Works:
-   If this project is forked, redistributed, or merged into another DV mod,
-   the code remains under MIT, but the restrictions on the Assets remain in
-   effect.
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- If this project is forked, redistributed, or merged into another DV mod, the code remains MIT, but the above restrictions on the Assets remain in full effect.
