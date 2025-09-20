@@ -25,3 +25,8 @@ The following applies to 3D models, textures, sounds, and other artistic/creativ
 
 3. Combined Works:
 - If this project is forked, redistributed, or merged into another DV mod, the code remains MIT, but the above restrictions on the Assets remain in full effect.
+
+4. Third-Party Asset Licenses:
+- Some Assets included in this project may originate from third parties and may be distributed under their own license terms.
+- If a third-party Asset includes an explicit license or attribution requirement, said license governs the use of said Asset and takes precedence over the restrictions in this section.
+- These overrides apply only to the specific third-party Asset(s) in question; all other Assets remain subject to the restrictions described in this license.
