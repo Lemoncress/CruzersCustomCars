@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 711031822, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: JK3_pack
+  m_EditorClassIdentifier: 
+  PackId: Jk3
+  PackName: Jk3
+  Author: Lilla, Cruzer
+  Version: 1.0.0
+  HomePage: 
+  Repository: 
+  Cars:
+  - {fileID: 11400000, guid: 5a308071f30281945abdba8ea5aa1d9a, type: 2}
+  - {fileID: 11400000, guid: ec2db030b23249644aa1c2b34703a1f8, type: 2}
+  ExtraModels: []
+  PaintSubstitutions:
+  - {fileID: 11400000, guid: 765f81c323035b44aa71f0afcd93f15f, type: 2}
+  ProceduralMaterials: {fileID: 11400000, guid: eea9224bcd89ec54d8d7fc3edd983f5e,
+    type: 2}
+  ExtraTranslations: {fileID: 11400000, guid: d36dfd00b518aea43b3092653aae77d8, type: 2}
+  AdditionalDependencies: []
+  _buttons: 0
+  ExporterVersion: 3.1.2

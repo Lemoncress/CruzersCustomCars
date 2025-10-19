@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 945288799, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: LocoCC50C_livery
+  m_EditorClassIdentifier: 
+  parentType: {fileID: 11400000, guid: e11e9477df00e804d826ff8a7ba1110c, type: 2}
+  id: CC50C
+  NameTranslationJson: '[{"Language":"English","Value":"CC50C"}]'
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: CC50C
+  icon: {fileID: 0}
+  localizationKey: ccl/livery/CC50C
+  prefab: {fileID: 1688182864204300644, guid: ff861ed0ea702234ca4317c6d50c5c3b, type: 3}
+  interiorPrefab: {fileID: 0}
+  explodedInteriorPrefab: {fileID: 0}
+  externalInteractablesPrefab: {fileID: 1312500395324393714, guid: 022350d8225dd61418b5d091d0ad10d3,
+    type: 3}
+  explodedExternalInteractablesPrefab: {fileID: 0}
+  FrontBogie: 10000
+  RearBogie: 10000
+  BufferType: 10000
+  HasMUCable: 0
+  UseCustomHosePositions: 1
+  HideHookPlates: 0
+  HideFrontCoupler: 1
+  HideBackCoupler: 0
+  TrainsetLiveries: []
+  LocoSpawnGroups: []
+  _spawnGroupJson: '[]'
+  UnlockableAsWorkTrain: 0
+  UnlockPrice: 30000
+  SummonPrice: 5000
+  CatalogPage: {fileID: 0}
+  buttonRender: 0

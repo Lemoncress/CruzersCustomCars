@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EditorSettings
   m_EditorClassIdentifier: 
   DisplayCodeOnPortFields: 1
-  UseFolderSystemOnPortFields: 0
+  UseFolderSystemOnPortFields: 1
   HighlightSpecialGameObjectNames: 1
   ExtraCargos: []
   ExtraGeneralLicenses: []

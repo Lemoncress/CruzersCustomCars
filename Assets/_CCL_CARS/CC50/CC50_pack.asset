@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 711031822, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: CC50_pack
+  m_EditorClassIdentifier: 
+  PackId: CC50
+  PackName: CC50
+  Author: Cruzer
+  Version: 1.0.0
+  HomePage: 
+  Repository: 
+  Cars:
+  - {fileID: 11400000, guid: b379c7ef66001334ca8fb0301e7e0c70, type: 2}
+  - {fileID: 11400000, guid: d744cfbf530f80644ba8d701840440c8, type: 2}
+  - {fileID: 11400000, guid: e11e9477df00e804d826ff8a7ba1110c, type: 2}
+  ExtraModels: []
+  PaintSubstitutions: []
+  ProceduralMaterials: {fileID: 0}
+  ExtraTranslations: {fileID: 0}
+  AdditionalDependencies: []
+  _buttons: 0
+  ExporterVersion: 3.1.1

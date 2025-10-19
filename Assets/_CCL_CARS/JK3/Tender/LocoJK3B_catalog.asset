@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1615646900, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: LocoJK3B_catalog
+  m_EditorClassIdentifier: 
+  HeaderColour: {r: 0.41568628, g: 0.6039216, b: 0.3019608, a: 1}
+  PageName:
+    Items:
+    - Language: 0
+      Value: S080-400B
+  ConsistUnits: 2/2
+  HasNickname: 1
+  Nickname:
+    Items:
+    - Language: 0
+      Value: Jk3
+  ProductionYears: 1897-1912
+  Type: 2
+  Role1: 30
+  Role2: 0
+  ShowLoadRatings: 0
+  LoadFlat:
+    Tonnage: 1200
+    Rating: 1
+  LoadIncline:
+    Tonnage: 450
+    Rating: 2
+  LoadInclineWet:
+    Tonnage: 300
+    Rating: 2
+  DiagramLayout: {fileID: 8279886883476735507, guid: e33ba707302fd354aa651c665c69c886,
+    type: 3}
+  DiagramExtras:
+    Length: 5120
+    Width: 2670
+    Height: 3340
+    IsThinVehicle: 0
+    HasFrontBumper: 0
+    HasRearBumper: 1
+  TechList:
+    Tech1:
+      Icon: 17
+      Description: vc/techdesc/unit/secondary
+      Type: vc/techdesc/unit/secondary_score
+    Tech2:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech3:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech4:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech5:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech6:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech7:
+      Icon: 0
+      Description: 
+      Type: 
+  HidePrice: 0
+  EaseOfOperation:
+    TotalScoreDisplay: 0
+    LearningSimplicity:
+      ScoreType: 0
+      Value: 1
+    BrakeOperation:
+      ScoreType: 0
+      Value: 1
+    WarningSystems:
+      ScoreType: 0
+      Value: 1
+    MisuseTolerance:
+      ScoreType: 0
+      Value: 1
+    RemoteConnectivity:
+      ScoreType: 0
+      Value: 1
+    ControlsLayout:
+      ScoreType: 0
+      Value: 1
+    ItemStorage:
+      ScoreType: 5
+      Value: 1
+    ReversingComfort:
+      ScoreType: 6
+      Value: 2
+    LightingOperation:
+      ScoreType: 0
+      Value: 1
+    SoundComfort:
+      ScoreType: 0
+      Value: 1
+  Maintenance:
+    TotalScoreDisplay: 0
+    EnergyEconomy:
+      ScoreType: 0
+      Value: 1
+    RepairEconomy:
+      ScoreType: 0
+      Value: 1
+    SanderAdjustability:
+      ScoreType: 0
+      Value: 1
+    WheelsLifetime:
+      ScoreType: 0
+      Value: 1
+    PowertrainLifetime:
+      ScoreType: 0
+      Value: 1
+    CollisionToughness:
+      ScoreType: 0
+      Value: 1
+  Hauling:
+    TotalScoreDisplay: 0
+    LoadRating:
+      ScoreType: 0
+      Value: 1
+    TopSpeed:
+      ScoreType: 0
+      Value: 1
+    AdhesionControl:
+      ScoreType: 0
+      Value: 1
+    HeatManagement:
+      ScoreType: 0
+      Value: 1
+    Range:
+      ScoreType: 5
+      Value: 4
+    CruiseDrivingEase:
+      ScoreType: 0
+      Value: 1
+    HillclimbDrivingEase:
+      ScoreType: 0
+      Value: 1
+    DynamicBraking:
+      ScoreType: 0
+      Value: 1
+  Shunting:
+    TotalScoreDisplay: 0
+    Visibility:
+      ScoreType: 6
+      Value: 3
+    Responsiveness:
+      ScoreType: 0
+      Value: 1
+    ShuntAcceleration:
+      ScoreType: 0
+      Value: 1
+    AccelerationDrivingEase:
+      ScoreType: 0
+      Value: 1
+    SoloBraking:
+      ScoreType: 6
+      Value: 1
+    CompressorStrength:
+      ScoreType: 0
+      Value: 1
+    Compactness:
+      ScoreType: 6
+      Value: 2
+    OutsideAccess:
+      ScoreType: 6
+      Value: 2
+  _pageNameJson: '{"Items":[{"Language":"English","Value":"S080-400B"}]}'
+  _nicknameJson: '{"Items":[{"Language":"English","Value":"Jk3"}]}'
+  _loadJson: '{"Rating":"Medium","Tonnage":1200}'
+  _loadInclineJson: '{"Rating":"Bad","Tonnage":450}'
+  _loadInclineWetJson: '{"Rating":"Bad","Tonnage":300}'
+  _diagramJson: '{"HasFrontBumper":false,"HasRearBumper":true,"Height":3340,"IsThinVehicle":false,"Length":5120,"Width":2670}'
+  _techJson: '{"Tech1":{"Description":"vc/techdesc/unit/secondary","Icon":"UnitEffect","Type":"vc/techdesc/unit/secondary_score"},"Tech2":{"Description":"","Icon":"None","Type":""},"Tech3":{"Description":"","Icon":"None","Type":""},"Tech4":{"Description":"","Icon":"None","Type":""},"Tech5":{"Description":"","Icon":"None","Type":""},"Tech6":{"Description":"","Icon":"None","Type":""},"Tech7":{"Description":"","Icon":"None","Type":""}}'
+  _easeScore: '{"BrakeOperation":{"ScoreType":"None","Value":1},"ControlsLayout":{"ScoreType":"None","Value":1},"ItemStorage":{"ScoreType":"PositiveSharedEffect","Value":1},"LearningSimplicity":{"ScoreType":"None","Value":1},"LightingOperation":{"ScoreType":"None","Value":1},"MisuseTolerance":{"ScoreType":"None","Value":1},"RemoteConnectivity":{"ScoreType":"None","Value":1},"ReversingComfort":{"ScoreType":"NegativeSharedEffect","Value":2},"SoundComfort":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None","WarningSystems":{"ScoreType":"None","Value":1}}'
+  _maintScore: '{"CollisionToughness":{"ScoreType":"None","Value":1},"EnergyEconomy":{"ScoreType":"None","Value":1},"PowertrainLifetime":{"ScoreType":"None","Value":1},"RepairEconomy":{"ScoreType":"None","Value":1},"SanderAdjustability":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None","WheelsLifetime":{"ScoreType":"None","Value":1}}'
+  _haulScore: '{"AdhesionControl":{"ScoreType":"None","Value":1},"CruiseDrivingEase":{"ScoreType":"None","Value":1},"DynamicBraking":{"ScoreType":"None","Value":1},"HeatManagement":{"ScoreType":"None","Value":1},"HillclimbDrivingEase":{"ScoreType":"None","Value":1},"LoadRating":{"ScoreType":"None","Value":1},"Range":{"ScoreType":"PositiveSharedEffect","Value":4},"TopSpeed":{"ScoreType":"None","Value":1},"TotalScoreDisplay":"None"}'
+  _shuntScore: '{"AccelerationDrivingEase":{"ScoreType":"None","Value":1},"Compactness":{"ScoreType":"NegativeSharedEffect","Value":2},"CompressorStrength":{"ScoreType":"None","Value":1},"OutsideAccess":{"ScoreType":"NegativeSharedEffect","Value":2},"Responsiveness":{"ScoreType":"None","Value":1},"ShuntAcceleration":{"ScoreType":"None","Value":1},"SoloBraking":{"ScoreType":"NegativeSharedEffect","Value":1},"TotalScoreDisplay":"None","Visibility":{"ScoreType":"NegativeSharedEffect","Value":3}}'

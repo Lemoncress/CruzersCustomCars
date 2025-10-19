@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1615646900, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: LocoJK3A_catalog
+  m_EditorClassIdentifier: 
+  HeaderColour: {r: 0.41521013, g: 0.603, b: 0.30029398, a: 1}
+  PageName:
+    Items:
+    - Language: 0
+      Value: S080-400A
+  ConsistUnits: 1/2
+  HasNickname: 1
+  Nickname:
+    Items:
+    - Language: 0
+      Value: Jk3
+  ProductionYears: 1897-1912
+  Type: 1
+  Role1: 11
+  Role2: 20
+  ShowLoadRatings: 1
+  LoadFlat:
+    Tonnage: 1500
+    Rating: 1
+  LoadIncline:
+    Tonnage: 450
+    Rating: 1
+  LoadInclineWet:
+    Tonnage: 300
+    Rating: 2
+  DiagramLayout: {fileID: 8093695780236515662, guid: d8d9464aa33690c46a49ecee6e262af4,
+    type: 3}
+  DiagramExtras:
+    Length: 8350
+    Width: 3080
+    Height: 3870
+    IsThinVehicle: 0
+    HasFrontBumper: 1
+    HasRearBumper: 0
+  TechList:
+    Tech1:
+      Icon: 16
+      Description: vc/techdesc/steam/s060
+      Type: vc/techtype/steam
+    Tech2:
+      Icon: 13
+      Description: vc/techdesc/mech_trans/s060
+      Type: vc/techtype/mech_trans
+    Tech3:
+      Icon: 5
+      Description: vc/techdesc/air_brake/nonselflap
+      Type: vc/techtype/air_brake
+    Tech4:
+      Icon: 3
+      Description: vc/techdesc/cab_open/s282a
+      Type: vc/techtype/cab_open
+    Tech5:
+      Icon: 17
+      Description: vc/techdesc/unit/primary
+      Type: vc/techdesc/unit/primary_score
+    Tech6:
+      Icon: 0
+      Description: 
+      Type: 
+    Tech7:
+      Icon: 0
+      Description: 
+      Type: 
+  HidePrice: 0
+  EaseOfOperation:
+    TotalScoreDisplay: 1
+    LearningSimplicity:
+      ScoreType: 2
+      Value: 1
+    BrakeOperation:
+      ScoreType: 2
+      Value: 2
+    WarningSystems:
+      ScoreType: 2
+      Value: 1
+    MisuseTolerance:
+      ScoreType: 2
+      Value: 1
+    RemoteConnectivity:
+      ScoreType: 2
+      Value: 1
+    ControlsLayout:
+      ScoreType: 2
+      Value: 3
+    ItemStorage:
+      ScoreType: 2
+      Value: 2
+    ReversingComfort:
+      ScoreType: 2
+      Value: 3
+    LightingOperation:
+      ScoreType: 2
+      Value: 3
+    SoundComfort:
+      ScoreType: 2
+      Value: 2
+  Maintenance:
+    TotalScoreDisplay: 1
+    EnergyEconomy:
+      ScoreType: 2
+      Value: 5
+    RepairEconomy:
+      ScoreType: 2
+      Value: 5
+    SanderAdjustability:
+      ScoreType: 2
+      Value: 5
+    WheelsLifetime:
+      ScoreType: 2
+      Value: 4
+    PowertrainLifetime:
+      ScoreType: 2
+      Value: 5
+    CollisionToughness:
+      ScoreType: 2
+      Value: 4
+  Hauling:
+    TotalScoreDisplay: 1
+    LoadRating:
+      ScoreType: 2
+      Value: 3
+    TopSpeed:
+      ScoreType: 2
+      Value: 3
+    AdhesionControl:
+      ScoreType: 2
+      Value: 4
+    HeatManagement:
+      ScoreType: 2
+      Value: 5
+    Range:
+      ScoreType: 2
+      Value: 3
+    CruiseDrivingEase:
+      ScoreType: 2
+      Value: 3
+    HillclimbDrivingEase:
+      ScoreType: 2
+      Value: 2
+    DynamicBraking:
+      ScoreType: 2
+      Value: 2
+  Shunting:
+    TotalScoreDisplay: 1
+    Visibility:
+      ScoreType: 2
+      Value: 3
+    Responsiveness:
+      ScoreType: 2
+      Value: 4
+    ShuntAcceleration:
+      ScoreType: 2
+      Value: 5
+    AccelerationDrivingEase:
+      ScoreType: 2
+      Value: 5
+    SoloBraking:
+      ScoreType: 2
+      Value: 5
+    CompressorStrength:
+      ScoreType: 2
+      Value: 3
+    Compactness:
+      ScoreType: 2
+      Value: 3
+    OutsideAccess:
+      ScoreType: 2
+      Value: 3
+  _pageNameJson: '{"Items":[{"Language":"English","Value":"S080-400A"}]}'
+  _nicknameJson: '{"Items":[{"Language":"English","Value":"Jk3"}]}'
+  _loadJson: '{"Rating":"Medium","Tonnage":1500}'
+  _loadInclineJson: '{"Rating":"Medium","Tonnage":450}'
+  _loadInclineWetJson: '{"Rating":"Bad","Tonnage":300}'
+  _diagramJson: '{"HasFrontBumper":true,"HasRearBumper":false,"Height":3870,"IsThinVehicle":false,"Length":8350,"Width":3080}'
+  _techJson: '{"Tech1":{"Description":"vc/techdesc/steam/s060","Icon":"SteamEngine","Type":"vc/techtype/steam"},"Tech2":{"Description":"vc/techdesc/mech_trans/s060","Icon":"MechanicalTransmission","Type":"vc/techtype/mech_trans"},"Tech3":{"Description":"vc/techdesc/air_brake/nonselflap","Icon":"CompressedAirBrakeSystem","Type":"vc/techtype/air_brake"},"Tech4":{"Description":"vc/techdesc/cab_open/s282a","Icon":"OpenCab","Type":"vc/techtype/cab_open"},"Tech5":{"Description":"vc/techdesc/unit/primary","Icon":"UnitEffect","Type":"vc/techdesc/unit/primary_score"},"Tech6":{"Description":"","Icon":"None","Type":""},"Tech7":{"Description":"","Icon":"None","Type":""}}'
+  _easeScore: '{"BrakeOperation":{"ScoreType":"Score","Value":2},"ControlsLayout":{"ScoreType":"Score","Value":3},"ItemStorage":{"ScoreType":"Score","Value":2},"LearningSimplicity":{"ScoreType":"Score","Value":1},"LightingOperation":{"ScoreType":"Score","Value":3},"MisuseTolerance":{"ScoreType":"Score","Value":1},"RemoteConnectivity":{"ScoreType":"Score","Value":1},"ReversingComfort":{"ScoreType":"Score","Value":3},"SoundComfort":{"ScoreType":"Score","Value":2},"TotalScoreDisplay":"Average","WarningSystems":{"ScoreType":"Score","Value":1}}'
+  _maintScore: '{"CollisionToughness":{"ScoreType":"Score","Value":4},"EnergyEconomy":{"ScoreType":"Score","Value":5},"PowertrainLifetime":{"ScoreType":"Score","Value":5},"RepairEconomy":{"ScoreType":"Score","Value":5},"SanderAdjustability":{"ScoreType":"Score","Value":5},"TotalScoreDisplay":"Average","WheelsLifetime":{"ScoreType":"Score","Value":4}}'
+  _haulScore: '{"AdhesionControl":{"ScoreType":"Score","Value":4},"CruiseDrivingEase":{"ScoreType":"Score","Value":3},"DynamicBraking":{"ScoreType":"Score","Value":2},"HeatManagement":{"ScoreType":"Score","Value":5},"HillclimbDrivingEase":{"ScoreType":"Score","Value":2},"LoadRating":{"ScoreType":"Score","Value":3},"Range":{"ScoreType":"Score","Value":3},"TopSpeed":{"ScoreType":"Score","Value":3},"TotalScoreDisplay":"Average"}'
+  _shuntScore: '{"AccelerationDrivingEase":{"ScoreType":"Score","Value":5},"Compactness":{"ScoreType":"Score","Value":3},"CompressorStrength":{"ScoreType":"Score","Value":3},"OutsideAccess":{"ScoreType":"Score","Value":3},"Responsiveness":{"ScoreType":"Score","Value":4},"ShuntAcceleration":{"ScoreType":"Score","Value":5},"SoloBraking":{"ScoreType":"Score","Value":5},"TotalScoreDisplay":"Average","Visibility":{"ScoreType":"Score","Value":3}}'

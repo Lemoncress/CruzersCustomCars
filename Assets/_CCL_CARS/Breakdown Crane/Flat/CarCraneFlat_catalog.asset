@@ -75,6 +75,7 @@ MonoBehaviour:
       Icon: 0
       Description: 
       Type: 
+  HidePrice: 1
   EaseOfOperation:
     TotalScoreDisplay: 0
     LearningSimplicity:

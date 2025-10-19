@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -701297949, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: LocoJK3A_cartype
+  m_EditorClassIdentifier: 
+  KindSelection: 2
+  id: Jk3A
+  carIdPrefix: '-'
+  IsSteamLocomotive: 1
+  localizationKey: ccl/car/Jk3A
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: Jk3A
+  NameTranslationJson: '[{"Language":"English","Value":"Jk3A"}]'
+  liveries:
+  - {fileID: 11400000, guid: c2edb1a2bce8f5d4f804587fa886044e, type: 2}
+  mass: 50000
+  bogieSuspensionMultiplier: 1
+  rollingResistanceCoefficient: 0.005
+  wheelSlidingFrictionCoefficient: 0.16
+  wheelslipFrictionCoefficient: 0.23
+  brakes:
+    hasCompressor: 1
+    hasMainResConnections: 0
+    brakeValveType: 2
+    hasIndependentBrake: 1
+    hasHandbrake: 0
+    ignoreOverheating: 0
+    brakeCylinderPressureCalculation: 0
+    brakingForcePerBogieMultiplier: 1
+    TrainBrakeCurveType: 1
+    TrainBrakeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    IndBrakeCurveType: 1
+    IndBrakeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  damage:
+    maxHealth: 12000
+    damageResistance: 37.5
+    damageMultiplier: 1
+    fireResistance: 37.5
+    fireDamageMultiplier: 1
+    damageTolerance: 0.04
+    ignoreDamage: 0
+    wheelsHP: 1500
+    mechanicalPowertrainHP: 2500
+    electricalPowertrainHP: 0
+    bodyPrice: 28000
+    wheelsPrice: 30000
+    electricalPowertrainPrice: 0
+    mechanicalPowertrainPrice: 20000
+  wheelRadius: 0.477635
+  useDefaultWheelRotation: 0
+  UseCustomGauge: 0
+  Gauge: 1435
+  CargoSetup: {fileID: 0}
+  unusedCarDeletePreventionMode: 12
+  SimAudioPrefab: {fileID: 2638113889059458, guid: 7b3e36c4c513928458d69e6c167a34b5,
+    type: 3}
+  HUDLayout: {fileID: 11400000, guid: 0e1a4cd88a8458b489f60b716f2e0533, type: 2}
+  GeneralLicense: S080
+  JobLicenses: []
+  brakesJson: '{"brakeCylinderPressureCalculation":"Regular","brakeValveType":"ManualLap","brakingForcePerBogieMultiplier":1,"hasCompressor":true,"hasHandbrake":false,"hasIndependentBrake":true,"hasMainResConnections":false,"ignoreOverheating":false,"IndBrakeCurve":{"keys":[],"postWrapMode":"ClampForever","preWrapMode":"ClampForever"},"IndBrakeCurveType":"LocoDefault","TrainBrakeCurve":{"keys":[],"postWrapMode":"ClampForever","preWrapMode":"ClampForever"},"TrainBrakeCurveType":"LocoDefault"}'
+  damageJson: '{"bodyPrice":28000,"damageMultiplier":1,"damageResistance":37.5,"damageTolerance":0.04,"electricalPowertrainHP":0,"electricalPowertrainPrice":0,"fireDamageMultiplier":1,"fireResistance":37.5,"ignoreDamage":false,"maxHealth":12000,"mechanicalPowertrainHP":2500,"mechanicalPowertrainPrice":20000,"wheelsHP":1500,"wheelsPrice":30000}'

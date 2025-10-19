@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 579221572, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: Jk3_paint_DVRT
+  m_EditorClassIdentifier: 
+  Paint: DVRT
+  Substitutions:
+  - Original: {fileID: 2100000, guid: 02f6206377faef541931a3ffe7d2b43f, type: 2}
+    Substitute: {fileID: 0}
+  - Original: {fileID: 2100000, guid: c49bed445d6a13f4bb62463a2a825450, type: 2}
+    Substitute: {fileID: 0}
+  - Original: {fileID: 2100000, guid: 03dc09cd883367743b92e55f8adef610, type: 2}
+    Substitute: {fileID: 0}
+  - Original: {fileID: 2100000, guid: 6bbebcacae64b364eb6a0380a6120c15, type: 2}
+    Substitute: {fileID: 0}
+  - Original: {fileID: 2100000, guid: 9b0b881266a646d4f8b40e661db6e7bd, type: 2}
+    Substitute: {fileID: 0}
+  _originals:
+  - {fileID: 2100000, guid: 02f6206377faef541931a3ffe7d2b43f, type: 2}
+  - {fileID: 2100000, guid: c49bed445d6a13f4bb62463a2a825450, type: 2}
+  - {fileID: 2100000, guid: 03dc09cd883367743b92e55f8adef610, type: 2}
+  - {fileID: 2100000, guid: 6bbebcacae64b364eb6a0380a6120c15, type: 2}
+  - {fileID: 2100000, guid: 9b0b881266a646d4f8b40e661db6e7bd, type: 2}
+  _substitutes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

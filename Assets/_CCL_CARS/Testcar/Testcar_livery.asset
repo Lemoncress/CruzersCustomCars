@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 945288799, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: Testcar_livery
+  m_EditorClassIdentifier: 
+  parentType: {fileID: 11400000, guid: 2adbedd0c56b51148ba3e2cb80b306a7, type: 2}
+  id: Testcar
+  NameTranslationJson: '[{"Language":"English","Value":"Testcar"}]'
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: Testcar
+  icon: {fileID: 0}
+  localizationKey: ccl/livery/Testcar
+  prefab: {fileID: 1688182864204300644, guid: c858f6f54dffb8548b05159550194dd3, type: 3}
+  interiorPrefab: {fileID: 0}
+  explodedInteriorPrefab: {fileID: 0}
+  externalInteractablesPrefab: {fileID: 1312500395324393714, guid: a66ad87476c808f4a93864c87e10c3c2,
+    type: 3}
+  explodedExternalInteractablesPrefab: {fileID: 0}
+  FrontBogie: 200
+  RearBogie: 200
+  BufferType: 21
+  HasMUCable: 0
+  UseCustomHosePositions: 0
+  HideHookPlates: 0
+  HideFrontCoupler: 0
+  HideBackCoupler: 0
+  TrainsetLiveries: []
+  LocoSpawnGroups: []
+  _spawnGroupJson: '[]'
+  UnlockableAsWorkTrain: 0
+  UnlockPrice: 30000
+  SummonPrice: 5000
+  CatalogPage: {fileID: 0}
+  buttonRender: 0

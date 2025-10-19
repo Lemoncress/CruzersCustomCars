@@ -53,6 +53,13 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   damage:
+    maxHealth: 8000
+    damageResistance: 50
+    damageMultiplier: 1
+    fireResistance: 7.5
+    fireDamageMultiplier: 1
+    damageTolerance: 0.01
+    ignoreDamage: 1
     wheelsHP: 0
     mechanicalPowertrainHP: 0
     electricalPowertrainHP: 0
@@ -71,4 +78,4 @@ MonoBehaviour:
   GeneralLicense: 
   JobLicenses: []
   brakesJson: '{"brakeCylinderPressureCalculation":"Regular","brakeValveType":"None","brakingForcePerBogieMultiplier":1,"hasCompressor":false,"hasHandbrake":true,"hasIndependentBrake":false,"hasMainResConnections":false,"ignoreOverheating":false,"IndBrakeCurve":{"keys":[],"postWrapMode":"ClampForever","preWrapMode":"ClampForever"},"IndBrakeCurveType":"Linear","TrainBrakeCurve":{"keys":[],"postWrapMode":"ClampForever","preWrapMode":"ClampForever"},"TrainBrakeCurveType":"Linear"}'
-  damageJson: '{"bodyPrice":0,"electricalPowertrainHP":0,"electricalPowertrainPrice":0,"mechanicalPowertrainHP":0,"mechanicalPowertrainPrice":0,"wheelsHP":0,"wheelsPrice":0}'
+  damageJson: '{"bodyPrice":0,"damageMultiplier":1,"damageResistance":50,"damageTolerance":0.01,"electricalPowertrainHP":0,"electricalPowertrainPrice":0,"fireDamageMultiplier":1,"fireResistance":7.5,"ignoreDamage":true,"maxHealth":8000,"mechanicalPowertrainHP":0,"mechanicalPowertrainPrice":0,"wheelsHP":0,"wheelsPrice":0}'

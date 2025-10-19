@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 945288799, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: LocoJK3A_livery
+  m_EditorClassIdentifier: 
+  parentType: {fileID: 11400000, guid: 5a308071f30281945abdba8ea5aa1d9a, type: 2}
+  id: Jk3A
+  NameTranslationJson: '[{"Language":"English","Value":"Jk3A"}]'
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: Jk3A
+  icon: {fileID: 21300000, guid: 111753d3cabe6e74d8b855d17c3283bc, type: 3}
+  localizationKey: ccl/livery/Jk3A
+  prefab: {fileID: 1688182864204300644, guid: f6bc351987aa34d4b80a2686acf6e0f9, type: 3}
+  interiorPrefab: {fileID: 6103965770022307272, guid: 11a96ad66cc0a7145a21d50a56a3ffca,
+    type: 3}
+  explodedInteriorPrefab: {fileID: 8094704337781882330, guid: 763f03fcf685691459b892a5c1b45691,
+    type: 3}
+  externalInteractablesPrefab: {fileID: 1312500395324393714, guid: e020e8ff8e631524f97e1c4f1ccba224,
+    type: 3}
+  explodedExternalInteractablesPrefab: {fileID: 4873645429524379977, guid: 76ab3645f1691b54f9976a213ea639bf,
+    type: 3}
+  FrontBogie: 10000
+  RearBogie: 10000
+  BufferType: 10000
+  HasMUCable: 0
+  UseCustomHosePositions: 1
+  HideHookPlates: 1
+  HideFrontCoupler: 0
+  HideBackCoupler: 1
+  TrainsetLiveries:
+  - Jk3A
+  - Jk3B
+  LocoSpawnGroups:
+  - Track: 300
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 500
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 700
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 800
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 1302
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 1700
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 1801
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 400
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 1005
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 1100
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 1200
+    AdditionalLiveries:
+    - Jk3B
+  - Track: 901
+    AdditionalLiveries:
+    - Jk3B
+  _spawnGroupJson: '[{"AdditionalLiveries":["Jk3B"],"Track":"CoalMineSouth"},{"AdditionalLiveries":["Jk3B"],"Track":"Farm"},{"AdditionalLiveries":["Jk3B"],"Track":"ForestCentral"},{"AdditionalLiveries":["Jk3B"],"Track":"ForestSouth"},{"AdditionalLiveries":["Jk3B"],"Track":"MachineFactoryRoundhouse2"},{"AdditionalLiveries":["Jk3B"],"Track":"Sawmill"},{"AdditionalLiveries":["Jk3B"],"Track":"SteelMillTurntable2"},{"AdditionalLiveries":["Jk3B"],"Track":"CoalPowerPlant"},{"AdditionalLiveries":["Jk3B"],"Track":"HarbourRoundhouse5"},{"AdditionalLiveries":["Jk3B"],"Track":"IronMineEast"},{"AdditionalLiveries":["Jk3B"],"Track":"IronMineWest"},{"AdditionalLiveries":["Jk3B"],"Track":"GoodsFactory2"}]'
+  UnlockableAsWorkTrain: 0
+  UnlockPrice: 30000
+  SummonPrice: 5000
+  CatalogPage: {fileID: 11400000, guid: 1a2068461d72efc4f8c3b2bc58f6ea5b, type: 2}
+  buttonRender: 0

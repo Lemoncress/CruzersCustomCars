@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 945288799, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: LocoJK3B_livery
+  m_EditorClassIdentifier: 
+  parentType: {fileID: 11400000, guid: ec2db030b23249644aa1c2b34703a1f8, type: 2}
+  id: Jk3B
+  NameTranslationJson: '[{"Language":"English","Value":"Jk3B"}]'
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: Jk3B
+  icon: {fileID: 21300000, guid: 6cff0ebff38fdb54d93291b682256246, type: 3}
+  localizationKey: ccl/livery/Jk3B
+  prefab: {fileID: 1688182864204300644, guid: df587b34025f08e48a4cb0459e6e1d2c, type: 3}
+  interiorPrefab: {fileID: 0}
+  explodedInteriorPrefab: {fileID: 0}
+  externalInteractablesPrefab: {fileID: 1312500395324393714, guid: 60bd3eaaeba6bf642933d5e0f22996f9,
+    type: 3}
+  explodedExternalInteractablesPrefab: {fileID: 0}
+  FrontBogie: 10000
+  RearBogie: 10000
+  BufferType: 10000
+  HasMUCable: 0
+  UseCustomHosePositions: 1
+  HideHookPlates: 1
+  HideFrontCoupler: 1
+  HideBackCoupler: 0
+  TrainsetLiveries:
+  - Jk3A
+  - Jk3B
+  LocoSpawnGroups: []
+  _spawnGroupJson: '[]'
+  UnlockableAsWorkTrain: 0
+  UnlockPrice: 30000
+  SummonPrice: 5000
+  CatalogPage: {fileID: 11400000, guid: b1e5bcec2c06e5748a0c5a9a18c22187, type: 2}
+  buttonRender: 0
