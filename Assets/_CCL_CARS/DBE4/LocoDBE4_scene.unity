@@ -1,0 +1,3642 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &19689966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 19689967}
+  - component: {fileID: 19689969}
+  - component: {fileID: 19689968}
+  m_Layer: 0
+  m_Name: hornControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &19689967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19689966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1454066619}
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &19689968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19689966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2028941985, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: hornControl.EXT_IN
+  controlBlocker: {fileID: 0}
+  neutralAt0: 1
+--- !u!114 &19689969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19689966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1218047574, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: hornControl
+  defaultValue: 0.5
+  smoothTime: 0.2
+  saveState: 0
+--- !u!1 &46570715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 46570716}
+  - component: {fileID: 46570717}
+  m_Layer: 0
+  m_Name: gaugesLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &46570716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46570715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &46570717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46570715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: gaugesLamp
+  offRangeMin: 0
+  offRangeMax: 0.4
+  onRangeUsed: 1
+  onRangeMin: 0.4
+  onRangeMax: Infinity
+  blinkRangeUsed: 0
+  blinkRangeMin: 0
+  blinkRangeMax: 0
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 50
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &103429066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 103429067}
+  - component: {fileID: 103429072}
+  - component: {fileID: 103429071}
+  - component: {fileID: 103429070}
+  - component: {fileID: 103429069}
+  - component: {fileID: 103429068}
+  m_Layer: 0
+  m_Name: de
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &103429067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103429066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 556163113}
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &103429068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103429066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: de.IGNITION_EXT_IN
+  ControlType: 13
+  controlBlocker: {fileID: 0}
+--- !u!114 &103429069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103429066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1824554882, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagerPortId: de.FUEL_ENV_DAMAGE_METER
+  environmentDamageResource: 201
+--- !u!114 &103429070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103429066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1539899641, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: de.ENGINE_ON
+--- !u!114 &103429071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103429066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1546251740, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: de.EMERGENCY_ENGINE_OFF_EXT_IN
+  controlBlocker: {fileID: 0}
+  signalClearedBySim: 0
+--- !u!114 &103429072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103429066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2146445127, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: de
+  rotationalInertia: 10
+  viscousDampingFactor: 40
+  engineRpmMax: 1600
+  engineRpmIdle: 600
+  rpmToPowerCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 842.26666
+      outSlope: 842.26666
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.031815805
+    - serializedVersion: 3
+      time: 1500
+      value: 1000000
+      inSlope: 0.000969854
+      outSlope: 0.000969854
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1600
+      value: 0
+      inSlope: -27790.76
+      outSlope: -27790.76
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.062794186
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  retarderBrakingTorque: 0
+  fuelInjection: 1.3
+  oilConsumptionRate: 0.025
+  noOilDamagePerSecond: 30
+  rpmDamagePerSecond: 0.01
+  rpmDamageImmunityTime: 2
+  overheatingThreshold: 110
+  overheatingDamagePerDegreePerSecond: 0.1
+  engineStarterFuseId: fusebox.ENGINE_STARTER
+--- !u!1 &111644502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 111644503}
+  - component: {fileID: 111644504}
+  m_Layer: 0
+  m_Name: fuel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &111644503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111644502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &111644504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111644502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -507730800, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: fuel
+  capacity: 4000
+  defaultValue: 4000
+  type: 1
+--- !u!1 &127990866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127990867}
+  - component: {fileID: 127990869}
+  - component: {fileID: 127990868}
+  m_Layer: 0
+  m_Name: compressor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &127990867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127990866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &127990868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127990866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 702349457, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationSignalExtInPortId: compressor.ACTIVATION_SIGNAL_EXT_IN
+  productionRateOutPortId: compressor.PRODUCTION_RATE
+  mainReservoirVolumePortId: compressor.MAIN_RES_VOLUME
+  activationPressureThresholdPortId: compressor.ACTIVATION_PRESSURE_THRESHOLD
+  compressorHealthStatePortId: compressor.COMPRESSOR_HEALTH_EXT_IN
+  mainResPressureNormalizedPortId: 
+--- !u!114 &127990869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127990866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -354602126, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: compressor
+  loadTorque: 270
+  maxProductionRate: 75
+  activationPressureThreshold: 8.3
+  mainReservoirVolume: 800
+  smoothTime: 0.3
+--- !u!1 &144811661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 144811662}
+  - component: {fileID: 144811665}
+  - component: {fileID: 144811664}
+  - component: {fileID: 144811663}
+  m_Layer: 0
+  m_Name: throttle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144811662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144811661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144811663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144811661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1001712476, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockedControlPortId: throttle.EXT_IN
+  resetToZeroOnBlock: 1
+  blockers:
+  - blockerPortId: dynamicBrake.EXT_IN
+    thresholdValue: 0
+    blockType: 0
+  _json: '[]'
+--- !u!114 &144811664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144811661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: throttle.EXT_IN
+  ControlType: 1
+  controlBlocker: {fileID: 144811663}
+--- !u!114 &144811665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144811661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: throttle
+  defaultValue: 0
+  saveState: 0
+--- !u!1 &151871057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151871058}
+  - component: {fileID: 151871061}
+  - component: {fileID: 151871060}
+  - component: {fileID: 151871059}
+  m_Layer: 0
+  m_Name: indBrake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151871058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151871057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &151871059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151871057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1001712476, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockedControlPortId: 
+  resetToZeroOnBlock: 0
+  blockers: []
+  _json: '[]'
+--- !u!114 &151871060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151871057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: indBrake.EXT_IN
+  ControlType: 4
+  controlBlocker: {fileID: 151871059}
+--- !u!114 &151871061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151871057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: indBrake
+  defaultValue: 0
+  saveState: 0
+--- !u!1 &194143790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 194143791}
+  - component: {fileID: 194143792}
+  m_Layer: 0
+  m_Name: dashLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &194143791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194143790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &194143792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194143790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: dashLamp
+  offRangeMin: 0
+  offRangeMax: 0.4
+  onRangeUsed: 1
+  onRangeMin: 0.4
+  onRangeMax: Infinity
+  blinkRangeUsed: 0
+  blinkRangeMin: 0
+  blinkRangeMax: 0
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 50
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &232353903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 232353904}
+  - component: {fileID: 232353907}
+  - component: {fileID: 232353906}
+  - component: {fileID: 232353905}
+  m_Layer: 0
+  m_Name: headlightsControlFront
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &232353904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232353903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &232353905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232353903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1001712476, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockedControlPortId: 
+  resetToZeroOnBlock: 0
+  blockers: []
+  _json: '[]'
+--- !u!114 &232353906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232353903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: headlightsControlFront.EXT_IN
+  ControlType: 8
+  controlBlocker: {fileID: 232353905}
+--- !u!114 &232353907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232353903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: headlightsControlFront
+  defaultValue: 0.4
+  saveState: 1
+--- !u!1 &357211178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 357211179}
+  - component: {fileID: 357211180}
+  m_Layer: 0
+  m_Name: fusebox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &357211179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357211178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &357211180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357211178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 673536450, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: fusebox
+  fuses:
+  - id: ELECTRONICS_MAIN
+    initialState: 0
+    offValue: 0
+  - id: ENGINE_STARTER
+    initialState: 0
+    offValue: 0
+  - id: TM_POWER
+    initialState: 0
+    offValue: 0
+  fusesJson: '[]'
+  saveState: 1
+--- !u!1 &376051755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 376051756}
+  - component: {fileID: 376051758}
+  - component: {fileID: 376051757}
+  m_Layer: 0
+  m_Name: brakeCutout
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &376051756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376051755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &376051757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376051755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: brakeCutout.EXT_IN
+  ControlType: 42
+  controlBlocker: {fileID: 0}
+--- !u!114 &376051758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376051755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: brakeCutout
+  defaultValue: 0
+  saveState: 1
+--- !u!1001 &532638499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1688182864204300644, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_Name
+      value: LocoDBE4_template
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816125112534472650, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1862391845404564021, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717056734660133537, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854379058429301422, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726221284669233379, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292490879795960835, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893666470908400760, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953537723304625999, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8498115358403557653, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033966204188741551, guid: fceb67ee97fd051488e47869c2d6dab7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fceb67ee97fd051488e47869c2d6dab7, type: 3}
+--- !u!1 &532638500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1688182864204300644, guid: fceb67ee97fd051488e47869c2d6dab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 532638499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &532638501 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6923559146813231640, guid: fceb67ee97fd051488e47869c2d6dab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 532638499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &532638502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532638500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -380647566, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedToBrakeDamageCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.333
+      outWeight: 0.333
+    - serializedVersion: 3
+      time: 2
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.333
+      outWeight: 0.333
+    - serializedVersion: 3
+      time: 7.868
+      value: 0.127
+      inSlope: 0.028
+      outSlope: 0.028
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.333
+      outWeight: 0.333
+    - serializedVersion: 3
+      time: 29.032
+      value: 0.671
+      inSlope: 0.015
+      outSlope: 0.015
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.333
+      outWeight: 0.333
+    - serializedVersion: 3
+      time: 100
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.333
+      outWeight: 0.333
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  bodyDamagerPortIds: []
+  bodyHealthStateExternalInPortIds: []
+  mechanicalPTDamagerPortIds:
+  - de.GENERATED_ENGINE_DAMAGE
+  mechanicalPTPercentualDamagerPortIds:
+  - de.GENERATED_ENGINE_PERCENTUAL_DAMAGE
+  mechanicalPTHealthStateExternalInPortIds:
+  - de.ENGINE_HEALTH_STATE_EXT_IN
+  mechanicalPTOffExternalInPortIds:
+  - de.COLLISION_ENGINE_OFF_EXT_IN
+  electricalPTDamagerPortIds:
+  - tm.GENERATED_DAMAGE
+  electricalPTHealthStateExternalInPortIds:
+  - tm.HEALTH_STATE_EXT_IN
+  electricalPTOffExternalInPortIds: []
+--- !u!1 &556163112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 556163113}
+  - component: {fileID: 556163114}
+  m_Layer: 0
+  m_Name: loadTorqueCalculator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &556163113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556163112}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 103429067}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &556163114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556163112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -90173034, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: loadTorqueCalculator
+  aReader:
+    valueType: 101
+    ID: LOAD_TORQUE_0
+    writeAllowed: 0
+  bReader:
+    valueType: 101
+    ID: LOAD_TORQUE_1
+    writeAllowed: 0
+  addReadOut:
+    type: 3
+    valueType: 101
+    ID: LOAD_TORQUE_TOTAL
+  negativeA: 0
+  negativeB: 0
+  aJson: '{"ID":"A","valueType":"GENERIC","writeAllowed":false}'
+  bJson: '{"ID":"B","valueType":"GENERIC","writeAllowed":false}'
+  outJson: '{"ID":"ADD_OUT","type":"READONLY_OUT","valueType":"GENERIC"}'
+--- !u!1 &559612188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 559612189}
+  - component: {fileID: 559612190}
+  m_Layer: 0
+  m_Name: throttlePower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &559612189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559612188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &559612190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559612188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -556929799, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: throttlePower
+  numberOfNotches: 8
+  gamma: 1.2
+--- !u!1 &564683323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 564683324}
+  - component: {fileID: 564683326}
+  - component: {fileID: 564683325}
+  m_Layer: 0
+  m_Name: '[sim]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &564683324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564683323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 144811662}
+  - {fileID: 559612189}
+  - {fileID: 589457691}
+  - {fileID: 1209941692}
+  - {fileID: 376051756}
+  - {fileID: 151871058}
+  - {fileID: 2023595715}
+  - {fileID: 1547923184}
+  - {fileID: 871664706}
+  - {fileID: 1815730220}
+  - {fileID: 232353904}
+  - {fileID: 19689967}
+  - {fileID: 1404778379}
+  - {fileID: 1338753113}
+  - {fileID: 111644503}
+  - {fileID: 1326631986}
+  - {fileID: 1976808077}
+  - {fileID: 1685567874}
+  - {fileID: 103429067}
+  - {fileID: 127990867}
+  - {fileID: 832187223}
+  - {fileID: 2101019595}
+  - {fileID: 976874631}
+  - {fileID: 2139900499}
+  - {fileID: 2048426858}
+  - {fileID: 357211179}
+  - {fileID: 194143791}
+  - {fileID: 46570716}
+  - {fileID: 1804413514}
+  - {fileID: 1028355154}
+  - {fileID: 1396176633}
+  - {fileID: 1011078411}
+  - {fileID: 1816863814}
+  - {fileID: 1412233366}
+  - {fileID: 2134183082}
+  - {fileID: 2145504400}
+  - {fileID: 1423152832}
+  - {fileID: 1554333963}
+  - {fileID: 1944278760}
+  m_Father: {fileID: 532638501}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &564683325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564683323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1426723858, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propagateNeutralStateToFront: 0
+  propagateNeutralStateToRear: 0
+  neutralStateSetters: []
+  _neutralStateSettersJson: '[]'
+--- !u!114 &564683326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564683323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 202801493, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  executionOrder:
+  - {fileID: 144811665}
+  - {fileID: 559612190}
+  - {fileID: 589457694}
+  - {fileID: 1209941695}
+  - {fileID: 376051758}
+  - {fileID: 151871061}
+  - {fileID: 2023595718}
+  - {fileID: 1547923186}
+  - {fileID: 871664707}
+  - {fileID: 1815730223}
+  - {fileID: 232353907}
+  - {fileID: 19689969}
+  - {fileID: 1454066620}
+  - {fileID: 1404778380}
+  - {fileID: 1530187510}
+  - {fileID: 1338753115}
+  - {fileID: 111644504}
+  - {fileID: 1326631987}
+  - {fileID: 1976808078}
+  - {fileID: 1685567877}
+  - {fileID: 103429072}
+  - {fileID: 556163114}
+  - {fileID: 127990869}
+  - {fileID: 832187224}
+  - {fileID: 1277540758}
+  - {fileID: 2101019598}
+  - {fileID: 2028738099}
+  - {fileID: 675329773}
+  - {fileID: 976874632}
+  - {fileID: 2139900500}
+  - {fileID: 2048426861}
+  - {fileID: 357211180}
+  - {fileID: 194143792}
+  - {fileID: 46570717}
+  - {fileID: 1804413515}
+  - {fileID: 1028355155}
+  - {fileID: 1396176634}
+  - {fileID: 1011078412}
+  - {fileID: 1816863815}
+  - {fileID: 1412233367}
+  - {fileID: 2134183083}
+  - {fileID: 2145504401}
+  - {fileID: 1423152833}
+  - {fileID: 1554333964}
+  - {fileID: 1944278761}
+  connections:
+  - fullPortIdOut: tm.TORQUE_OUT
+    fullPortIdIn: transmission.TORQUE_IN
+  - fullPortIdOut: transmission.TORQUE_OUT
+    fullPortIdIn: traction.TORQUE_IN
+  portReferenceConnections:
+  - portReferenceId: throttlePower.THROTTLE
+    portId: throttle.EXT_IN
+  - portReferenceId: throttlePower.IDLE_RPM_NORMALIZED
+    portId: de.IDLE_RPM_NORMALIZED
+  - portReferenceId: throttlePower.MAX_POWER_RPM_NORMALIZED
+    portId: de.MAX_POWER_RPM_NORMALIZED
+  - portReferenceId: throttlePower.MAX_POWER
+    portId: de.MAX_POWER
+  - portReferenceId: horn.HORN_CONTROL
+    portId: hornControl.CONTROL
+  - portReferenceId: bell.CONTROL
+    portId: bellControl.EXT_IN
+  - portReferenceId: sander.SAND
+    portId: sand.AMOUNT
+  - portReferenceId: sander.SAND_CONSUMPTION
+    portId: sand.CONSUME_EXT_IN
+  - portReferenceId: de.THROTTLE
+    portId: tractionGenerator.THROTTLE
+  - portReferenceId: de.RETARDER
+    portId: 
+  - portReferenceId: de.DRIVEN_RPM
+    portId: 
+  - portReferenceId: de.INTAKE_WATER_CONTENT
+    portId: waterDetector.STATE_EXT_IN
+  - portReferenceId: de.FUEL
+    portId: fuel.AMOUNT
+  - portReferenceId: de.FUEL_CONSUMPTION
+    portId: fuel.CONSUME_EXT_IN
+  - portReferenceId: de.OIL
+    portId: oil.AMOUNT
+  - portReferenceId: de.OIL_CONSUMPTION
+    portId: oil.CONSUME_EXT_IN
+  - portReferenceId: de.LOAD_TORQUE
+    portId: loadTorqueCalculator.LOAD_TORQUE_TOTAL
+  - portReferenceId: de.TEMPERATURE
+    portId: 
+  - portReferenceId: loadTorqueCalculator.LOAD_TORQUE_0
+    portId: compressor.LOAD_TORQUE
+  - portReferenceId: loadTorqueCalculator.LOAD_TORQUE_1
+    portId: tractionGenerator.LOAD_TORQUE
+  - portReferenceId: compressor.ENGINE_RPM_NORMALIZED
+    portId: de.RPM_NORMALIZED
+  - portReferenceId: slugsPowerCalculator.INTERNAL_EFFECTIVE_RESISTANCE
+    portId: tm.EFFECTIVE_RESISTANCE
+  - portReferenceId: slugsPowerCalculator.INTERNAL_AMPS
+    portId: tm.TOTAL_AMPS
+  - portReferenceId: tractionGenerator.GOAL_POWER
+    portId: throttlePower.GOAL_POWER
+  - portReferenceId: tractionGenerator.GOAL_RPM_NORMALIZED
+    portId: throttlePower.GOAL_RPM_NORMALIZED
+  - portReferenceId: tractionGenerator.DYNAMIC_BRAKE
+    portId: dynamicBrake.EXT_IN
+  - portReferenceId: tractionGenerator.RPM
+    portId: de.RPM
+  - portReferenceId: tractionGenerator.RPM_NORMALIZED
+    portId: de.RPM_NORMALIZED
+  - portReferenceId: tractionGenerator.TOTAL_AMPS
+    portId: slugsPowerCalculator.TOTAL_AMPS
+  - portReferenceId: tractionGenerator.EFFECTIVE_RESISTANCE
+    portId: slugsPowerCalculator.EFFECTIVE_RESISTANCE
+  - portReferenceId: tractionGenerator.SINGLE_MOTOR_EFFECTIVE_RESISTANCE
+    portId: tm.SINGLE_MOTOR_EFFECTIVE_RESISTANCE
+  - portReferenceId: tractionGenerator.TRANSITION_CURRENT_LIMIT
+    portId: tm.CURRENT_LIMIT_REQUEST
+  - portReferenceId: tm.THROTTLE
+    portId: throttle.EXT_IN
+  - portReferenceId: tm.REVERSER
+    portId: reverser.REVERSER
+  - portReferenceId: tm.DYNAMIC_BRAKE
+    portId: dynamicBrake.EXT_IN
+  - portReferenceId: tm.CONFIGURATION_OVERRIDE
+    portId: 
+  - portReferenceId: tm.MOTOR_RPM
+    portId: tmRpmCalculator.TM_RPM
+  - portReferenceId: tm.APPLIED_VOLTAGE
+    portId: tractionGenerator.VOLTAGE
+  - portReferenceId: tm.TM_TEMPERATURE
+    portId: tmHeat.TEMPERATURE
+  - portReferenceId: tm.ENVIRONMENT_WATER_STATE
+    portId: 
+  - portReferenceId: tmPassiveCooler.TEMPERATURE
+    portId: tmHeat.TEMPERATURE
+  - portReferenceId: tmPassiveCooler.TARGET_TEMPERATURE
+    portId: 
+  - portReferenceId: tmHeat.HEAT_IN_0
+    portId: tm.HEAT_OUT
+  - portReferenceId: tmHeat.HEAT_IN_1
+    portId: tmPassiveCooler.HEAT_OUT
+  - portReferenceId: tmRpmCalculator.WHEEL_RPM
+    portId: traction.WHEEL_RPM_EXT_IN
+  - portReferenceId: tmRpmCalculator.GEAR_RATIO
+    portId: transmission.GEAR_RATIO
+  - portReferenceId: dashLamp.INPUT
+    portId: dashLight.EXT_IN
+  - portReferenceId: gaugesLamp.INPUT
+    portId: dashLight.EXT_IN
+  - portReferenceId: cabLightLamp.INPUT
+    portId: indCabLight.EXT_IN
+  - portReferenceId: cabLightLamp.INPUT
+    portId: bellControl.EXT_IN
+  - portReferenceId: fuelLamp.INPUT
+    portId: fuel.NORMALIZED
+  - portReferenceId: oilLamp.INPUT
+    portId: oil.NORMALIZED
+  - portReferenceId: sandLamp.INPUT
+    portId: sand.NORMALIZED
+  - portReferenceId: headlightsFLamp.INPUT
+    portId: headlightsControlFront.EXT_IN
+  - portReferenceId: headlightsRLamp.INPUT
+    portId: headlightsControlRear.EXT_IN
+  - portReferenceId: sanderLamp.INPUT
+    portId: sander.CONTROL_EXT_IN
+  - portReferenceId: tmOfflineLamp.INPUT
+    portId: tm.TMS_STATE
+  - portReferenceId: engineRPMLamp.INPUT
+    portId: de.RPM_NORMALIZED
+  - portReferenceId: ampLamp.INPUT
+    portId: tm.AMPS_PER_TM
+  connectionsJson: '[]'
+  portReferenceConnectionsJson: '[]'
+--- !u!1 &589457690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 589457691}
+  - component: {fileID: 589457694}
+  - component: {fileID: 589457693}
+  - component: {fileID: 589457692}
+  m_Layer: 0
+  m_Name: reverser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &589457691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589457690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &589457692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589457690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1001712476, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockedControlPortId: reverser.CONTROL_EXT_IN
+  resetToZeroOnBlock: 0
+  blockers:
+  - blockerPortId: throttle.EXT_IN
+    thresholdValue: 0
+    blockType: 0
+  - blockerPortId: dynamicBrake.EXT_IN
+    thresholdValue: 0
+    blockType: 0
+  _json: '[]'
+--- !u!114 &589457693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589457690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: reverser.CONTROL_EXT_IN
+  ControlType: 3
+  controlBlocker: {fileID: 589457692}
+--- !u!114 &589457694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589457690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1550180288, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: reverser
+  isAnalog: 0
+--- !u!1 &675329771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 675329772}
+  - component: {fileID: 675329773}
+  m_Layer: 0
+  m_Name: tmHeat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &675329772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675329771}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101019595}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &675329773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675329771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -68710533, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: tmHeat
+  heatCapacity: 15000
+  overheatingTemperatureThreshold: 120
+  maxTemperature: 300
+  inputCount: 2
+  inputs:
+  - valueType: 107
+    ID: HEAT_IN_0
+    writeAllowed: 0
+  - valueType: 107
+    ID: HEAT_IN_1
+    writeAllowed: 0
+  _inputsJson: '[{"ID":"HEAT_IN_0","valueType":"HEAT_RATE","writeAllowed":false},{"ID":"HEAT_IN_1","valueType":"HEAT_RATE","writeAllowed":false}]'
+--- !u!1 &832187222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832187223}
+  - component: {fileID: 832187224}
+  m_Layer: 0
+  m_Name: tractionGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &832187223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832187222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1277540756}
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &832187224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832187222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1068375172, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: tractionGenerator
+  maxVoltage: 600
+  torqueFactor: 8
+  maxAmps: 5000
+  throttleProportionalGain: 5
+  throttleDifferentialGain: 10
+  throttleIntegralGain: 0
+  throttleIntegralMin: 0
+  throttleIntegralMax: 0
+  throttleMaxSpeed: 1
+  excitationGainMaxSpeed: 0.2
+  excitationDropMaxSpeed: 1
+  dynamicBrakeGoalRpmNormalized: 0.45789474
+  powerFuseId: fusebox.TM_POWER
+  buttonRender: 0
+--- !u!1 &871664705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 871664706}
+  - component: {fileID: 871664707}
+  m_Layer: 0
+  m_Name: dashLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &871664706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871664705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &871664707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871664705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: dashLight
+  defaultValue: 0
+  saveState: 1
+--- !u!1 &976874630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 976874631}
+  - component: {fileID: 976874632}
+  m_Layer: 0
+  m_Name: tmRpmCalculator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &976874631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976874630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &976874632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976874630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1464646225, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: tmRpmCalculator
+  aReader:
+    valueType: 104
+    ID: WHEEL_RPM
+    writeAllowed: 0
+  bReader:
+    valueType: 0
+    ID: GEAR_RATIO
+    writeAllowed: 0
+  mulReadOut:
+    type: 3
+    valueType: 104
+    ID: TM_RPM
+  invertA: 0
+  invertB: 0
+  aJson: '{"ID":"A","valueType":"GENERIC","writeAllowed":false}'
+  bJson: '{"ID":"B","valueType":"GENERIC","writeAllowed":false}'
+  outJson: '{"ID":"MUL_OUT","type":"READONLY_OUT","valueType":"GENERIC"}'
+--- !u!1 &1011078410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011078411}
+  - component: {fileID: 1011078412}
+  m_Layer: 0
+  m_Name: oilLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011078411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011078410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1011078412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011078410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: oilLamp
+  offRangeMin: 0.4
+  offRangeMax: 1
+  onRangeUsed: 1
+  onRangeMin: 0.2
+  onRangeMax: 0.4
+  blinkRangeUsed: 1
+  blinkRangeMin: 0
+  blinkRangeMax: 0.2
+  playAudioOnValueDrop: 1
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 201
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1028355153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028355154}
+  - component: {fileID: 1028355155}
+  m_Layer: 0
+  m_Name: cabLightLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1028355154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028355153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1028355155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028355153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: cabLightLamp
+  offRangeMin: 0
+  offRangeMax: 0.001
+  onRangeUsed: 1
+  onRangeMin: 0.001
+  onRangeMax: Infinity
+  blinkRangeUsed: 0
+  blinkRangeMin: 0
+  blinkRangeMax: 0
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 50
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1209941691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1209941692}
+  - component: {fileID: 1209941695}
+  - component: {fileID: 1209941694}
+  - component: {fileID: 1209941693}
+  m_Layer: 0
+  m_Name: brake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1209941692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209941691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1209941693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209941691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1001712476, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockedControlPortId: 
+  resetToZeroOnBlock: 0
+  blockers: []
+  _json: '[]'
+--- !u!114 &1209941694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209941691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: brake.EXT_IN
+  ControlType: 2
+  controlBlocker: {fileID: 1209941693}
+--- !u!114 &1209941695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209941691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: brake
+  defaultValue: 0
+  saveState: 0
+--- !u!1 &1277540755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1277540756}
+  - component: {fileID: 1277540758}
+  - component: {fileID: 1277540757}
+  m_Layer: 0
+  m_Name: slugsPowerCalculator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1277540756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277540755}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 832187223}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1277540757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277540755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -768302789, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generatorVoltagePortId: tractionGenerator.VOLTAGE
+  slugsEffectiveResistancePortId: slugsPowerCalculator.EXTERNAL_EFFECTIVE_RESISTANCE_EXT_IN
+  slugsTotalAmpsPortId: slugsPowerCalculator.EXTERNAL_AMPS_EXT_IN
+  powerFuseId: fusebox.TM_POWER
+--- !u!114 &1277540758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277540755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -351683030, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: slugsPowerCalculator
+--- !u!1 &1326631985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326631986}
+  - component: {fileID: 1326631987}
+  m_Layer: 0
+  m_Name: oil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326631986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326631985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1326631987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326631985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -507730800, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: oil
+  capacity: 300
+  defaultValue: 300
+  type: 2
+--- !u!1 &1338753112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1338753113}
+  - component: {fileID: 1338753115}
+  - component: {fileID: 1338753114}
+  m_Layer: 0
+  m_Name: waterDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1338753113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338753112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1338753114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338753112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2137424823, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statePortId: waterDetector.STATE_EXT_IN
+--- !u!114 &1338753115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338753112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -887398055, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: waterDetector
+--- !u!1 &1396176632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1396176633}
+  - component: {fileID: 1396176634}
+  m_Layer: 0
+  m_Name: fuelLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1396176633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396176632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1396176634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396176632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: fuelLamp
+  offRangeMin: 0.25
+  offRangeMax: 1
+  onRangeUsed: 1
+  onRangeMin: 0.125
+  onRangeMax: 0.25
+  blinkRangeUsed: 1
+  blinkRangeMin: 0
+  blinkRangeMax: 0.125
+  playAudioOnValueDrop: 1
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 200
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1404778378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1404778379}
+  - component: {fileID: 1404778380}
+  m_Layer: 0
+  m_Name: bellControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1404778379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404778378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1530187509}
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404778380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404778378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: bellControl
+  defaultValue: 0
+  saveState: 1
+--- !u!1 &1412233365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412233366}
+  - component: {fileID: 1412233367}
+  m_Layer: 0
+  m_Name: headlightsRLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1412233366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412233365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1412233367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412233365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: headlightsRLamp
+  offRangeMin: 0.4
+  offRangeMax: 0.55
+  onRangeUsed: 1
+  onRangeMin: 0
+  onRangeMax: 1
+  blinkRangeUsed: 0
+  blinkRangeMin: 0
+  blinkRangeMax: 0
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 50
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1423152831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423152832}
+  - component: {fileID: 1423152833}
+  m_Layer: 0
+  m_Name: tmOfflineLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423152832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423152831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1423152833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423152831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: tmOfflineLamp
+  offRangeMin: 0.1
+  offRangeMax: 1
+  onRangeUsed: 1
+  onRangeMin: -1
+  onRangeMax: -0.1
+  blinkRangeUsed: 1
+  blinkRangeMin: -0.1
+  blinkRangeMax: 0.1
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 51
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1454066618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1454066619}
+  - component: {fileID: 1454066620}
+  m_Layer: 0
+  m_Name: horn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1454066619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454066618}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 19689967}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1454066620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454066618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1217099946, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: horn
+  controlNeutralAt0: 1
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+--- !u!1 &1530187508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1530187509}
+  - component: {fileID: 1530187510}
+  m_Layer: 0
+  m_Name: bell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1530187509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530187508}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1404778379}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1530187510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530187508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1387832301, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: bell
+  smoothDownTime: 0.5
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+--- !u!1 &1547923183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1547923184}
+  - component: {fileID: 1547923186}
+  - component: {fileID: 1547923185}
+  m_Layer: 0
+  m_Name: indCabLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1547923184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547923183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1547923185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547923183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: indCabLight.EXT_IN
+  ControlType: 27
+  controlBlocker: {fileID: 0}
+--- !u!114 &1547923186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547923183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: indCabLight
+  defaultValue: 0
+  saveState: 1
+--- !u!1 &1554333962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554333963}
+  - component: {fileID: 1554333964}
+  m_Layer: 0
+  m_Name: engineRPMLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1554333963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554333962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1554333964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554333962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: engineRPMLamp
+  offRangeMin: 0
+  offRangeMax: 1
+  onRangeUsed: 1
+  onRangeMin: 1
+  onRangeMax: Infinity
+  blinkRangeUsed: 0
+  blinkRangeMin: 0
+  blinkRangeMax: 0
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 1
+  inputReader:
+    valueType: 104
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1685567873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1685567874}
+  - component: {fileID: 1685567877}
+  - component: {fileID: 1685567876}
+  - component: {fileID: 1685567875}
+  m_Layer: 0
+  m_Name: sander
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1685567874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685567873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1685567875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685567873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1001712476, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockedControlPortId: 
+  resetToZeroOnBlock: 0
+  blockers: []
+  _json: '[]'
+--- !u!114 &1685567876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685567873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: sander.CONTROL_EXT_IN
+  ControlType: 6
+  controlBlocker: {fileID: 1685567875}
+--- !u!114 &1685567877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685567873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1245189774, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: sander
+  sandConsumptionRate: 0.5
+  sandCoeficientMax: 1.5
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+--- !u!1001 &1714139115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1312500395324393714, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_Name
+      value: LocoDBE4_interactables
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7827193555322370895, guid: 84a3585170d02594ba098bb95520734d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84a3585170d02594ba098bb95520734d, type: 3}
+--- !u!1 &1804413513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1804413514}
+  - component: {fileID: 1804413515}
+  m_Layer: 0
+  m_Name: cabLightLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1804413514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804413513}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1804413515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804413513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: cabLightLamp
+  offRangeMin: 0
+  offRangeMax: 0.4
+  onRangeUsed: 1
+  onRangeMin: 0.4
+  onRangeMax: Infinity
+  blinkRangeUsed: 0
+  blinkRangeMin: 0
+  blinkRangeMax: 0
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 50
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1815730219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1815730220}
+  - component: {fileID: 1815730223}
+  - component: {fileID: 1815730222}
+  - component: {fileID: 1815730221}
+  m_Layer: 0
+  m_Name: headlightsControlRear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1815730220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815730219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1815730221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815730219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1001712476, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockedControlPortId: 
+  resetToZeroOnBlock: 0
+  blockers: []
+  _json: '[]'
+--- !u!114 &1815730222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815730219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: headlightsControlRear.EXT_IN
+  ControlType: 9
+  controlBlocker: {fileID: 1815730221}
+--- !u!114 &1815730223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815730219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: headlightsControlRear
+  defaultValue: 0.4
+  saveState: 1
+--- !u!1 &1816863813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1816863814}
+  - component: {fileID: 1816863815}
+  m_Layer: 0
+  m_Name: sandLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1816863814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816863813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1816863815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816863813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: sandLamp
+  offRangeMin: 0.1
+  offRangeMax: 1
+  onRangeUsed: 1
+  onRangeMin: 0.05
+  onRangeMax: 0.1
+  blinkRangeUsed: 1
+  blinkRangeMin: 0
+  blinkRangeMax: 0.05
+  playAudioOnValueDrop: 1
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 202
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1944278759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1944278760}
+  - component: {fileID: 1944278761}
+  m_Layer: 0
+  m_Name: ampLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1944278760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944278759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1944278761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944278759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: ampLamp
+  offRangeMin: 0
+  offRangeMax: 600
+  onRangeUsed: 1
+  onRangeMin: 600
+  onRangeMax: 940
+  blinkRangeUsed: 1
+  blinkRangeMin: 940
+  blinkRangeMax: Infinity
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 105
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &1976808076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1976808077}
+  - component: {fileID: 1976808078}
+  m_Layer: 0
+  m_Name: sand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1976808077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976808076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976808078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976808076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -507730800, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: sand
+  capacity: 600
+  defaultValue: 600
+  type: 3
+--- !u!1 &2023595714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2023595715}
+  - component: {fileID: 2023595718}
+  - component: {fileID: 2023595717}
+  - component: {fileID: 2023595716}
+  m_Layer: 0
+  m_Name: dynamicBrake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2023595715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023595714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2023595716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023595714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1001712476, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockedControlPortId: dynamicBrake.EXT_IN
+  resetToZeroOnBlock: 1
+  blockers:
+  - blockerPortId: throttle.EXT_IN
+    thresholdValue: 0
+    blockType: 0
+  - blockerPortId: reverser.REVERSER
+    thresholdValue: 0
+    blockType: 2
+  _json: '[]'
+--- !u!114 &2023595717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023595714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1241259877, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portId: dynamicBrake.EXT_IN
+  ControlType: 14
+  controlBlocker: {fileID: 2023595716}
+--- !u!114 &2023595718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023595714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19037246, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: dynamicBrake
+  defaultValue: 0
+  saveState: 0
+--- !u!1 &2028738097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028738098}
+  - component: {fileID: 2028738099}
+  m_Layer: 0
+  m_Name: tmPassiveCooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2028738098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028738097}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2101019595}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2028738099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028738097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1510972076, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: tmPassiveCooler
+  coolingRate: 250
+--- !u!1 &2048426857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2048426858}
+  - component: {fileID: 2048426861}
+  - component: {fileID: 2048426860}
+  - component: {fileID: 2048426859}
+  m_Layer: 0
+  m_Name: traction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2048426858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048426857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2048426859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048426857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -967505634, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  preventWheelslip: 0
+  wheelslipToAdhesionDrop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.3333
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.25
+      value: 0.4
+      inSlope: -0.0085
+      outSlope: -0.0085
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.3333
+      outWeight: 0.3333
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxWheelslipRpm: 600
+  numberOfPoweredAxlesPortId: tm.WORKING_TRACTION_MOTORS
+  sandCoefPortId: sander.SAND_COEF
+  engineBrakingActivePortId: tm.DYNAMIC_BRAKE_ACTIVE
+  buttonRender: 0
+--- !u!114 &2048426860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048426857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1169593176, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forwardSpeedPortId: traction.FORWARD_SPEED_EXT_IN
+  wheelRpmPortId: traction.WHEEL_RPM_EXT_IN
+  wheelSpeedKmhPortId: traction.WHEEL_SPEED_KMH_EXT_IN
+--- !u!114 &2048426861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048426857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1194517493, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: traction
+--- !u!1 &2101019594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101019595}
+  - component: {fileID: 2101019598}
+  - component: {fileID: 2101019597}
+  - component: {fileID: 2101019596}
+  m_Layer: 0
+  m_Name: tm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101019595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101019594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2028738098}
+  - {fileID: 675329772}
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101019596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101019594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -337164418, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyDamagePercentage: 0.05
+  wheelsDamagePercentage: 0
+  mechanicalPTDamagePercentage: 0
+  electricalPTDamagePercentage: 0
+  explosionPrefab: 4
+  explosionParticlesDuration: 4
+  windowsBreakingDelay: 0.5
+  explosionAnchor: {fileID: 0}
+  explosionSignalPortId: tm.OVERSPEED_EXPLOSION_TRIGGER
+  explodeTrainCar: 0
+--- !u!114 &2101019597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101019594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775591609, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overheatFuseOffPortId: tm.OVERHEAT_POWER_FUSE_OFF
+  tmFuseId: fusebox.TM_POWER
+  tmBlowAnchor: {fileID: 0}
+--- !u!114 &2101019598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101019594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1994177711, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: tm
+  maxMotorRpm: 2200
+  motorResistance: 0.015
+  motorTorqueFactor: 0.003
+  externalResistance: 0.015
+  ampsSmoothTime: 0.5
+  ampsSmoothMaxSpeed: 5000
+  maxAmpsPerTm: 1500
+  numberOfTractionMotors: 4
+  dynamicBrakePeakForceRpm: 800
+  dynamicBrakeGridResistance: 0.65
+  dynamicBrakeMaxCurrent: 700
+  dynamicBrakeCoolerSmoothTime: 2
+  circuitConnectionStages: 1
+  circuitConnectionTime: 1
+  circuitConnectionTimeRandomization: 0.1
+  transitionMaxAmps: 100
+  configurations:
+  - excitationMultiplier: 1
+    motorGroups:
+    - motorIndexes: 000000000300000004000000
+    - motorIndexes: 010000000200000005000000
+    forwardTransition:
+      thresholdValue: 500
+      thresholdType: 0
+    backwardTransition:
+      thresholdValue: 0
+      thresholdType: 0
+  - excitationMultiplier: 1
+    motorGroups:
+    - motorIndexes: 0000000003000000
+    - motorIndexes: 0100000004000000
+    - motorIndexes: 0200000005000000
+    forwardTransition:
+      thresholdValue: 900
+      thresholdType: 0
+    backwardTransition:
+      thresholdValue: 450
+      thresholdType: 1
+  - excitationMultiplier: 0.78
+    motorGroups:
+    - motorIndexes: 0000000003000000
+    - motorIndexes: 0100000004000000
+    - motorIndexes: 0200000005000000
+    forwardTransition:
+      thresholdValue: 1100
+      thresholdType: 0
+    backwardTransition:
+      thresholdValue: 850
+      thresholdType: 1
+  - excitationMultiplier: 0.6
+    motorGroups:
+    - motorIndexes: 0000000003000000
+    - motorIndexes: 0100000004000000
+    - motorIndexes: 0200000005000000
+    forwardTransition:
+      thresholdValue: 0
+      thresholdType: 0
+    backwardTransition:
+      thresholdValue: 1000
+      thresholdType: 1
+  overheatingTemperatureThreshold: 120
+  overheatingMaxTime: 5
+  overheatingTmKillPercentage: 0.2
+  setTmOnFireOnKillPercentage: 0.3
+  rpmDamagePerSecond: 0.015
+  overspeedDamageFactor: 0.001
+  overheatingDamagePerSecond: 0.1
+  damagePerFuseBlow: 20
+  damagePerTmBlow: 300
+  poweredWheelsManager: {fileID: 0}
+  powerFuseId: fusebox.TM_POWER
+  _configs: '[{"backwardTransition":{"thresholdType":"TRANSITION_WHEN_ABOVE_THRESHOLD","thresholdValue":0},"excitationMultiplier":1,"forwardTransition":{"thresholdType":"TRANSITION_WHEN_ABOVE_THRESHOLD","thresholdValue":500},"motorGroups":[{"motorIndexes":[0,3,4]},{"motorIndexes":[1,2,5]}]},{"backwardTransition":{"thresholdType":"TRANSITION_WHEN_BELOW_THRESHOLD","thresholdValue":450},"excitationMultiplier":1,"forwardTransition":{"thresholdType":"TRANSITION_WHEN_ABOVE_THRESHOLD","thresholdValue":900},"motorGroups":[{"motorIndexes":[0,3]},{"motorIndexes":[1,4]},{"motorIndexes":[2,5]}]},{"backwardTransition":{"thresholdType":"TRANSITION_WHEN_BELOW_THRESHOLD","thresholdValue":850},"excitationMultiplier":0.78,"forwardTransition":{"thresholdType":"TRANSITION_WHEN_ABOVE_THRESHOLD","thresholdValue":1100},"motorGroups":[{"motorIndexes":[0,3]},{"motorIndexes":[1,4]},{"motorIndexes":[2,5]}]},{"backwardTransition":{"thresholdType":"TRANSITION_WHEN_BELOW_THRESHOLD","thresholdValue":1000},"excitationMultiplier":0.6,"forwardTransition":{"thresholdType":"TRANSITION_WHEN_ABOVE_THRESHOLD","thresholdValue":0},"motorGroups":[{"motorIndexes":[0,3]},{"motorIndexes":[1,4]},{"motorIndexes":[2,5]}]}]'
+--- !u!1 &2134183081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2134183082}
+  - component: {fileID: 2134183083}
+  m_Layer: 0
+  m_Name: headlightsFLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2134183082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134183081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2134183083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134183081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: headlightsFLamp
+  offRangeMin: 0.4
+  offRangeMax: 0.55
+  onRangeUsed: 1
+  onRangeMin: 0
+  onRangeMax: 1
+  blinkRangeUsed: 0
+  blinkRangeMin: 0
+  blinkRangeMax: 0
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 50
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'
+--- !u!1 &2139900498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2139900499}
+  - component: {fileID: 2139900500}
+  m_Layer: 0
+  m_Name: transmission
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2139900499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139900498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2139900500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139900498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845733294, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: transmission
+  gearRatio: 4.133333
+  transmissionEfficiency: 1
+--- !u!1 &2145504399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2145504400}
+  - component: {fileID: 2145504401}
+  m_Layer: 0
+  m_Name: sanderLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2145504400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145504399}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 564683324}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2145504401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145504399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -432747236, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: sanderLamp
+  offRangeMin: 0
+  offRangeMax: 0.001
+  onRangeUsed: 1
+  onRangeMin: 0.001
+  onRangeMax: Infinity
+  blinkRangeUsed: 0
+  blinkRangeMin: 0
+  blinkRangeMax: 0
+  playAudioOnValueDrop: 0
+  playAudioOnValueRaise: 0
+  inputReader:
+    valueType: 50
+    ID: INPUT
+    writeAllowed: 0
+  powerFuseId: fusebox.ELECTRONICS_MAIN
+  _json: '{"ID":"INPUT","valueType":"GENERIC","writeAllowed":false}'

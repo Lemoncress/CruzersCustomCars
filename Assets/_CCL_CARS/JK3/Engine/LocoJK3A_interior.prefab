@@ -433,7 +433,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204310121291858233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0604, y: 0.0485, z: -0.0013}
+  m_LocalPosition: {x: 0, y: 0.099, z: -0.0523}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3433657926192451377}
@@ -697,7 +697,7 @@ MonoBehaviour:
   innerLimitMaxNotch: 0
   jointAxis: {x: 1, y: 0, z: 0}
   useSpring: 1
-  jointSpring: 100
+  jointSpring: 20
   jointDamper: 0
   useLimits: 1
   jointLimitMin: 0
@@ -4843,8 +4843,8 @@ MonoBehaviour:
     touchPose: -1
     grabPose: -1
   nonVrStaticInteractionArea: {fileID: 1220309908429716384}
-  mass: 5
-  angularDrag: 1
+  mass: 8
+  angularDrag: 1.5
   jointAxis: {x: 0, y: 0, z: 1}
   useSpring: 0
   jointSpring: 0
@@ -4860,7 +4860,7 @@ MonoBehaviour:
   rotatorMaxForceMagnitude: 0.015
   drag: {fileID: 0}
   limitHit: {fileID: 0}
-  hitTolerance: 0.1
+  hitTolerance: 4
   useHaptics: 1
   notchAngle: 1
   enableWhenTouching: 0
@@ -9355,7 +9355,7 @@ MonoBehaviour:
   maxForceAppliedMagnitude: Infinity
   pullingForceMultiplier: 1
   scrollWheelHoverScroll: 1
-  scrollWheelSpring: 50
+  scrollWheelSpring: 75
   useSteppedJoint: 1
   steppedValueUpdate: 1
   notches: 11
@@ -9364,7 +9364,7 @@ MonoBehaviour:
   innerLimitMaxNotch: 0
   jointAxis: {x: 1, y: 0, z: 0}
   useSpring: 1
-  jointSpring: 100
+  jointSpring: 50
   jointDamper: 0
   useLimits: 1
   jointLimitMin: -50
@@ -11621,7 +11621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   electricsFuseAffectsIndicators: 0
-  reverseDirectionList: 0100000007000000230000001d00000024000000
+  reverseDirectionList: 0100000007000000230000001d000000240000002a000000
 --- !u!114 &7681795891522247693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14838,7 +14838,7 @@ MonoBehaviour:
   innerLimitMaxNotch: 2
   jointAxis: {x: 0, y: 1, z: 0}
   useSpring: 1
-  jointSpring: 100
+  jointSpring: 50
   jointDamper: 0
   useLimits: 1
   jointLimitMin: -88
@@ -14978,6 +14978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6563330264661248748}
   - component: {fileID: 2090469594947639323}
+  - component: {fileID: 3466134185030723453}
   m_Layer: 0
   m_Name: ignition
   m_TagString: Untagged
@@ -15007,11 +15008,25 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7684455877314920371}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.3
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3466134185030723453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7684455877314920371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1288760500, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layer: 26
+  includeChildren: 0
 --- !u!1 &7696266418611030821
 GameObject:
   m_ObjectHideFlags: 0
@@ -15423,7 +15438,7 @@ MonoBehaviour:
   innerLimitMaxNotch: 0
   jointAxis: {x: 0, y: 0, z: -1}
   useSpring: 1
-  jointSpring: 200
+  jointSpring: 20
   jointDamper: 0
   useLimits: 1
   jointLimitMin: 0
@@ -16045,13 +16060,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8082312004697144931}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 963596149097001424}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8719761257742134745
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17883,7 +17898,7 @@ MonoBehaviour:
   innerLimitMaxNotch: 0
   jointAxis: {x: -1, y: 0, z: 0}
   useSpring: 1
-  jointSpring: 100
+  jointSpring: 10
   jointDamper: 0
   useLimits: 1
   jointLimitMin: 0

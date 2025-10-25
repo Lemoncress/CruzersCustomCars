@@ -15,9 +15,9 @@ MonoBehaviour:
   PackId: Jk3
   PackName: Jk3
   Author: Lilla, Cruzer
-  Version: 1.0.0
+  Version: 1.0.1
   HomePage: 
-  Repository: 
+  Repository: https://raw.githubusercontent.com/CruzerBlade9369/CruzersCustomCars/refs/heads/main/Releases/Jk3/repository.json
   Cars:
   - {fileID: 11400000, guid: 5a308071f30281945abdba8ea5aa1d9a, type: 2}
   - {fileID: 11400000, guid: ec2db030b23249644aa1c2b34703a1f8, type: 2}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 945288799, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: LocoDBE4_livery
+  m_EditorClassIdentifier: 
+  parentType: {fileID: 11400000, guid: 81ecbdc2e0ec7994ab65dafa145e958b, type: 2}
+  id: DBE4
+  NameTranslationJson: '[{"Language":"English","Value":"DBE4"}]'
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: DBE4
+  icon: {fileID: 0}
+  localizationKey: ccl/livery/DBE4
+  prefab: {fileID: 1688182864204300644, guid: fceb67ee97fd051488e47869c2d6dab7, type: 3}
+  interiorPrefab: {fileID: 0}
+  explodedInteriorPrefab: {fileID: 0}
+  externalInteractablesPrefab: {fileID: 1312500395324393714, guid: 84a3585170d02594ba098bb95520734d,
+    type: 3}
+  explodedExternalInteractablesPrefab: {fileID: 0}
+  FrontBogie: 50
+  RearBogie: 50
+  BufferType: 70
+  HasMUCable: 0
+  UseCustomHosePositions: 0
+  HideHookPlates: 0
+  HideFrontCoupler: 0
+  HideBackCoupler: 0
+  TrainsetLiveries: []
+  LocoSpawnGroups: []
+  _spawnGroupJson: '[]'
+  UnlockableAsWorkTrain: 0
+  UnlockPrice: 30000
+  SummonPrice: 5000
+  CatalogPage: {fileID: 0}
+  buttonRender: 0

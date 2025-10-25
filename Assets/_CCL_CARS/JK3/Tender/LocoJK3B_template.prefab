@@ -6126,7 +6126,7 @@ GameObject:
   - component: {fileID: 414596689415041200}
   - component: {fileID: 2933616308009611064}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6366,8 +6366,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: water
-  capacity: 9000
-  defaultValue: 9000
+  capacity: 5500
+  defaultValue: 5500
   type: 4
 --- !u!114 &5925677976283210129
 MonoBehaviour:
@@ -7855,8 +7855,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: coal
-  capacity: 3000
-  defaultValue: 3000
+  capacity: 2500
+  defaultValue: 2500
   type: 0
 --- !u!114 &929919010396183888
 MonoBehaviour:

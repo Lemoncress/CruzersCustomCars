@@ -9317,7 +9317,7 @@ MonoBehaviour:
   ID: firebox
   maxCoalCapacity: 70
   coalDumpRate: 4
-  burnTime: 180
+  burnTime: 200
   efficiencyAtMaxCombustion: 0.5
   combustionRateSmoothTime: 5
   temperatureSmoothTime: 15
@@ -9334,7 +9334,7 @@ MonoBehaviour:
   m_Script: {fileID: -1699978854, guid: b247489fc36790c41b197410cd8386d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coalConsumptionMultiplier: 3
+  coalConsumptionMultiplier: 1.8
   fireboxCapacityPortId: firebox.COAL_CAPACITY
   fireboxContentsPortId: firebox.COAL_LEVEL
   fireboxDoorPortId: fireboxDoor.EXT_IN
@@ -13861,7 +13861,7 @@ MonoBehaviour:
   waterDamagePercentagePerChuff: 0.025
   waterDamageRestorePerSecond: 0.03
   cylinderCrackDamage: 100
-  passiveDamagePerRev: 0.01
+  passiveDamagePerRev: 0.0075
   noOilDamagePerRev: 1
   ashChuffDamage: 3
 --- !u!1 &3467127937582469585
@@ -18155,8 +18155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: sand
-  capacity: 240
-  defaultValue: 240
+  capacity: 260
+  defaultValue: 260
   type: 3
 --- !u!1 &5000477904818276792
 GameObject:
@@ -20624,7 +20624,7 @@ MonoBehaviour:
   ID: lubricator
   oilCapacity: 1
   oilLeakageRate: 0.00015
-  oilConsumptionPerRev: 0.001
+  oilConsumptionPerRev: 0.00065
   refillPerRev: 0.002
   manualRefillTime: 10
 --- !u!1 &6115490454771757816
@@ -23750,9 +23750,9 @@ MonoBehaviour:
   length: 4.7
   capacityMultiplier: 0.85
   thermalInsulance: 0.04
-  maxInjectorRate: 7.5
+  maxInjectorRate: 8
   defaultFeedwaterTemperature: 25
-  waterConsumptionMultiplier: 2
+  waterConsumptionMultiplier: 1.5
   maxBlowdownRate: 5
   safetyValveOpeningPressure: 15
   safetyValveClosingPressure: 14.7
@@ -25708,7 +25708,7 @@ MonoBehaviour:
   startSizeMultiplierMax: 2
   emissionRateMultiplierMin: 1
   emissionRateMultiplierMax: 5
-  emissionRateMaxSpeedKmh: 60
+  emissionRateMaxSpeedKmh: 40
   _frontParents:
   - {fileID: 5181225056717605576}
   - {fileID: 3312974192203993838}

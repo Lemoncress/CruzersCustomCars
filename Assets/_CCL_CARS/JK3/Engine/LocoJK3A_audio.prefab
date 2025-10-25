@@ -2017,7 +2017,7 @@ MonoBehaviour:
   m_Script: {fileID: -1195312188, guid: b247489fc36790c41b197410cd8386d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterVolume: 0.8
+  masterVolume: 1
   type: 0
   linearPitchLerp: 0
   minPitch: 0.5
