@@ -3630,7 +3630,6 @@ Transform:
   - {fileID: 7614539800431686544}
   - {fileID: 4789443405477722058}
   - {fileID: 4549685729600335317}
-  - {fileID: 5706162679133875930}
   - {fileID: 6022480431485370233}
   - {fileID: 3106470641820511307}
   - {fileID: 4408132294622058874}
@@ -5291,7 +5290,7 @@ Transform:
   - {fileID: 4009564960728889140}
   - {fileID: 5855120426264895909}
   m_Father: {fileID: 183489905211413242}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8744731076048695255
 MonoBehaviour:
@@ -5557,70 +5556,6 @@ MonoBehaviour:
   portId: whistle.EXT_IN
   controlBlocker: {fileID: 0}
   neutralAt0: 1
---- !u!1 &1146827982493907520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5706162679133875930}
-  - component: {fileID: 7027805992402158388}
-  - component: {fileID: 5106707442199238063}
-  m_Layer: 0
-  m_Name: wg_light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5706162679133875930
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146827982493907520}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.300038, z: -2.686208}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 877920243991052650}
-  m_Father: {fileID: 183489905211413242}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7027805992402158388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146827982493907520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1443576683, guid: b247489fc36790c41b197410cd8386d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lampStatePortId: waterGaugeLightLamp.LAMP_STATE
---- !u!114 &5106707442199238063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146827982493907520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -752700891, guid: b247489fc36790c41b197410cd8386d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lampInd: {fileID: 4066079694790731477}
-  lampState: 0
-  warningAudio: {fileID: 0}
-  onStateBuzzingLoopAudio: {fileID: 0}
-  blinkStateBuzzingLoopAudio: {fileID: 0}
-  audioMixerGroup: 3
 --- !u!1 &1158479385912297254
 GameObject:
   m_ObjectHideFlags: 0
@@ -6289,61 +6224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   syncTag: o0
---- !u!1 &1444940491168359069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 877920243991052650}
-  - component: {fileID: 4066079694790731477}
-  m_Layer: 0
-  m_Name: waterglasslight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &877920243991052650
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444940491168359069}
-  m_LocalRotation: {x: -0, y: 0.4226183, z: -0, w: 0.9063078}
-  m_LocalPosition: {x: 0.32537103, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5706162679133875930}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4066079694790731477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444940491168359069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 757112890, guid: b247489fc36790c41b197410cd8386d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minValue: 0
-  maxValue: 1
-  binary: 1
-  valueThreshold: 0.5
-  lag: 0.05
-  emissionColor: {r: 1, g: 1, b: 0.5686275, a: 1}
-  emissionLight: {fileID: 0}
-  lightIntensity: 0.3
-  renderers:
-  - {fileID: 0}
-  glareColor: {r: 1, g: 1, b: 1, a: 1}
-  glareRenderer: {fileID: 0}
 --- !u!1 &1489955079530902899
 GameObject:
   m_ObjectHideFlags: 0
@@ -6422,7 +6302,7 @@ Transform:
   - {fileID: 5141453199451346035}
   - {fileID: 5680143325087607639}
   m_Father: {fileID: 183489905211413242}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4568408173935848515
 MonoBehaviour:
@@ -6770,7 +6650,7 @@ Transform:
   - {fileID: 5804996460792142396}
   - {fileID: 2377673733191832010}
   m_Father: {fileID: 183489905211413242}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5455073269449223875
 MonoBehaviour:
@@ -12567,7 +12447,7 @@ Transform:
   m_Children:
   - {fileID: 3310875346052169861}
   m_Father: {fileID: 183489905211413242}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3049124403263358451
 MonoBehaviour:
@@ -23071,7 +22951,7 @@ Transform:
   - {fileID: 1607710368124258017}
   - {fileID: 3287428004825106106}
   m_Father: {fileID: 183489905211413242}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3215218082310031570
 MonoBehaviour:
